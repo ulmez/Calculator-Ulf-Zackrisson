@@ -57,7 +57,7 @@ public class CalculatorTest {
 	// **************************************************
 	
 	// **************************************************
-	// Test of method multiplication ***********************
+	// Test of method multiplication ********************
 	@Test
 	public void testMultiplicationMethod1() {
 		assertEquals("Unexpected calculation of multiplicationMethod1", 12.0, calcTest.multiplication(4, 3), 0);
@@ -71,6 +71,24 @@ public class CalculatorTest {
 	@Test
 	public void testMultiplicationMethod3() {
 		assertEquals("Unexpected calculation of multiplicationMethod3", 10561.6, calcTest.multiplication(56, 188.6), 0);
+	}
+	// **************************************************
+	
+	// **************************************************
+	// Test of method division **************************
+	@Test
+	public void testDivisionMethod1() {
+		assertEquals("Unexpected calculation of divisionMethod1", 2.0, calcTest.division(4, 2), 0);
+	}
+	
+	@Test
+	public void testDivisionMethod2() {
+		assertEquals("Unexpected calculation of divisionMethod2", -4.0, calcTest.division(-8, 2), 0);
+	}
+	
+	@Test
+	public void testDivisionMethod3() {
+		assertEquals("Unexpected calculation of divisionMethod3", 8.0, calcTest.division(24, 3), 0);
 	}
 	// **************************************************
 	
