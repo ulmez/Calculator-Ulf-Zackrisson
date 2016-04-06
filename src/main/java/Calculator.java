@@ -20,4 +20,8 @@ public class Calculator {
 	public void setNumber2(double number2) {
 		this.number2 = number2;
 	}
+	
+	public double addition(double number1, double number2) {
+		return number1 + number2;
+	}
 }
